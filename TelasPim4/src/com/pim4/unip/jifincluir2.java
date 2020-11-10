@@ -40,7 +40,7 @@ public class jifincluir2 extends javax.swing.JInternalFrame {
         setTitle("Tela de Cadastro de Funcionário ");
 
         lblNome2.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
-        lblNome2.setText("Nome CompletOOOOo");
+        lblNome2.setText("Nome CompletOO");
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\sdjma\\Downloads\\marcalogo.png")); // NOI18N
 

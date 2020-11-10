@@ -80,7 +80,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Bright" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Nome CompletOOOOo"/>
+        <Property name="text" type="java.lang.String" value="Nome CompletOO"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtNome2">
