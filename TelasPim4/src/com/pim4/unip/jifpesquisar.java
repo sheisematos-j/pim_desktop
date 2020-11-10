@@ -27,12 +27,13 @@ public class jifpesquisar extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblCpfconsultacliente = new javax.swing.JLabel();
-        txtConsultacliente = new javax.swing.JTextField();
-        btnConsultarcliente = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        lblNumeroconta = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        lblcpfoucnpj = new javax.swing.JLabel();
+        txtcpfoucnpj = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        lblou = new javax.swing.JLabel();
+        txtnumerodaconta = new javax.swing.JTextField();
+        btnconsultarcliente = new javax.swing.JButton();
 
         setClosable(true);
         setIconifiable(true);
@@ -40,40 +41,46 @@ public class jifpesquisar extends javax.swing.JInternalFrame {
         setTitle("Tela de Pesquisa ");
         getContentPane().setLayout(null);
 
-        lblCpfconsultacliente.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lblCpfconsultacliente.setText("CPF ou CNPJ");
-        getContentPane().add(lblCpfconsultacliente);
-        lblCpfconsultacliente.setBounds(170, 120, 100, 20);
-        getContentPane().add(txtConsultacliente);
-        txtConsultacliente.setBounds(120, 160, 200, 30);
-
-        btnConsultarcliente.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        btnConsultarcliente.setText("Consultar");
-        btnConsultarcliente.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(btnConsultarcliente);
-        btnConsultarcliente.setBounds(160, 220, 110, 40);
-
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\sdjma\\Downloads\\marcalogo.png")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(150, 30, 144, 70);
+        jLabel1.setBounds(134, 40, 140, 60);
 
-        lblNumeroconta.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lblNumeroconta.setText("Número da Conta ");
-        getContentPane().add(lblNumeroconta);
-        lblNumeroconta.setBounds(150, 290, 150, 14);
-        getContentPane().add(jTextField1);
-        jTextField1.setBounds(130, 330, 200, 30);
+        lblcpfoucnpj.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
+        lblcpfoucnpj.setText("Digite o CPF ou CNPJ");
+        getContentPane().add(lblcpfoucnpj);
+        lblcpfoucnpj.setBounds(20, 120, 220, 40);
+        getContentPane().add(txtcpfoucnpj);
+        txtcpfoucnpj.setBounds(190, 130, 140, 20);
+
+        jLabel2.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
+        jLabel2.setText("Digite o número da conta");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(20, 210, 170, 20);
+
+        lblou.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
+        lblou.setText("ou");
+        getContentPane().add(lblou);
+        lblou.setBounds(80, 180, 34, 14);
+        getContentPane().add(txtnumerodaconta);
+        txtnumerodaconta.setBounds(190, 210, 140, 20);
+
+        btnconsultarcliente.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
+        btnconsultarcliente.setText("Consultar");
+        btnconsultarcliente.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btnconsultarcliente);
+        btnconsultarcliente.setBounds(160, 300, 100, 30);
 
         setBounds(0, 0, 456, 493);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnConsultarcliente;
+    private javax.swing.JButton btnconsultarcliente;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JLabel lblCpfconsultacliente;
-    private javax.swing.JLabel lblNumeroconta;
-    private javax.swing.JTextField txtConsultacliente;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel lblcpfoucnpj;
+    private javax.swing.JLabel lblou;
+    private javax.swing.JTextField txtcpfoucnpj;
+    private javax.swing.JTextField txtnumerodaconta;
     // End of variables declaration//GEN-END:variables
 }

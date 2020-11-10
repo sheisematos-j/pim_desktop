@@ -25,303 +25,65 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblRe" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Component id="txtRe" min="-2" pref="180" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="319" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="lblNome2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtNome2" min="-2" pref="274" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblSexo2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="lblMasculino2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="lblFeminio2" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnMasculino2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnFeminino2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="lblData2" min="-2" pref="127" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="txtData2" min="-2" pref="114" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="lblCpf2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblRg2" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtCpf2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtRg2" alignment="0" min="-2" pref="181" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="lblTelefone2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="txtTelefone2" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="lblEndereço2" min="-2" pref="60" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtEndereço2" min="-2" pref="215" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="lblEmail2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtEmail2" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="lblCidade2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="txtCidade2" min="-2" pref="97" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" attributes="0">
-                                              <Component id="lblUf2" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="txtUf2" min="-2" pref="39" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                          </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnincluirfuncionario" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="lblRe" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtRe" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="lblNumero2" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtNumero2" min="-2" pref="233" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblNome2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="txtNome2" min="-2" pref="247" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" pref="56" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblNome2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtNome2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNome2" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="lblSexo2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lblFeminio2" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="btnFeminino2" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblMasculino2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnMasculino2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblData2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtData2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblCpf2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtCpf2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblRg2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtRg2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblEndereço2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtEndereço2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblCidade2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtCidade2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblUf2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtUf2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblTelefone2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtTelefone2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblEmail2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtEmail2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblNumero2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtNumero2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblRe" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtRe" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="90" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Component id="btnincluirfuncionario" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace pref="142" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JTextField" name="txtEndere&#xe7;o2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblCidade2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Cidade "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtCidade2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblUf2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="UF"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblNome2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Bright" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Nome Completo"/>
+        <Property name="text" type="java.lang.String" value="Nome CompletOOOOo"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtUf2">
     </Component>
     <Component class="javax.swing.JTextField" name="txtNome2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblTelefone2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Telefone Principal"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblSexo2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Sexo"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtTelefone2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblFeminio2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Feminino"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblEmail2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="E-mail"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtEmail2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblMasculino2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Masculino "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="btnFeminino2">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="btnMasculino2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblData2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Data de Nascimento "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtData2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblCpf2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="CPF"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtCpf2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblRg2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="RG"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtRg2">
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblEndere&#xe7;o2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Endere&#xe7;o "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblNumero2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Bright" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="N&#xfa;mero da Carteira de Trabalho "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtNumero2">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -335,10 +97,23 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Bright" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="RE"/>
+        <Property name="text" type="java.lang.String" value="Matr&#xed;cula"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtRe">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnincluirfuncionario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Bright" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Incluir"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

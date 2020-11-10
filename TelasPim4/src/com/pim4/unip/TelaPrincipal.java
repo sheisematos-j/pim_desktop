@@ -34,10 +34,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jFuncionarios = new javax.swing.JMenu();
         jIncluir2 = new javax.swing.JMenuItem();
         jPesquisar2 = new javax.swing.JMenuItem();
-        jSolicitar = new javax.swing.JMenu();
-        jConsultar = new javax.swing.JMenuItem();
-        jTransacao = new javax.swing.JMenu();
-        jConsultar2 = new javax.swing.JMenuItem();
         jMoedas = new javax.swing.JMenu();
         jPesquisar3 = new javax.swing.JMenuItem();
 
@@ -78,30 +74,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jFuncionarios);
 
-        jSolicitar.setText("Solicitações ");
-
-        jConsultar.setText("Consultar ");
-        jConsultar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jConsultarActionPerformed(evt);
-            }
-        });
-        jSolicitar.add(jConsultar);
-
-        jMenuBar1.add(jSolicitar);
-
-        jTransacao.setText("Transações ");
-
-        jConsultar2.setText("Consultar");
-        jConsultar2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jConsultar2ActionPerformed(evt);
-            }
-        });
-        jTransacao.add(jConsultar2);
-
-        jMenuBar1.add(jTransacao);
-
         jMoedas.setText("Moedas");
 
         jPesquisar3.setText("Pesquisar");
@@ -124,18 +96,6 @@ jifpesquisar obj=new jifpesquisar();
 jdpprincipal.add(obj);
 obj.setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jPesquisarActionPerformed
-
-    private void jConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jConsultarActionPerformed
-jifconsultar obj=new jifconsultar();
-jdpprincipal.add(obj);
-obj.setVisible(true);        // TODO add your handling code here:
-    }//GEN-LAST:event_jConsultarActionPerformed
-
-    private void jConsultar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jConsultar2ActionPerformed
-jifconsultar2 obj=new jifconsultar2();
-jdpprincipal.add(obj);
-obj.setVisible(true);        // TODO add your handling code here:
-    }//GEN-LAST:event_jConsultar2ActionPerformed
 
     private void jIncluir2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jIncluir2ActionPerformed
 jifincluir2 obj=new jifincluir2();
@@ -192,8 +152,6 @@ obj.setVisible(true);        // TODO add your handling code here:
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jCliente;
-    private javax.swing.JMenuItem jConsultar;
-    private javax.swing.JMenuItem jConsultar2;
     private javax.swing.JMenu jFuncionarios;
     private javax.swing.JMenuItem jIncluir2;
     private javax.swing.JMenuBar jMenuBar1;
@@ -201,8 +159,6 @@ obj.setVisible(true);        // TODO add your handling code here:
     private javax.swing.JMenuItem jPesquisar;
     private javax.swing.JMenuItem jPesquisar2;
     private javax.swing.JMenuItem jPesquisar3;
-    private javax.swing.JMenu jSolicitar;
-    private javax.swing.JMenu jTransacao;
     private javax.swing.JDesktopPane jdpprincipal;
     // End of variables declaration//GEN-END:variables
 }
