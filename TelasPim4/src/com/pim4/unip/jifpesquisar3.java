@@ -27,6 +27,7 @@ public class jifpesquisar3 extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jFileChooser1 = new javax.swing.JFileChooser();
         lblTipomoeda = new javax.swing.JLabel();
         txtTipomoeda = new javax.swing.JTextField();
         btnConsulta4 = new javax.swing.JButton();
@@ -47,6 +48,11 @@ public class jifpesquisar3 extends javax.swing.JInternalFrame {
         btnConsulta4.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
         btnConsulta4.setText("Consultar");
         btnConsulta4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnConsulta4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConsulta4ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\sdjma\\Downloads\\marcalogo (1).png")); // NOI18N
 
@@ -107,9 +113,15 @@ public class jifpesquisar3 extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnConsulta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsulta4ActionPerformed
+    JFtelaexibicaopesquisa obj = new JFtelaexibicaopesquisa();
+    obj.setVisible(true);
+    }//GEN-LAST:event_btnConsulta4ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnConsulta4;
+    private javax.swing.JFileChooser jFileChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

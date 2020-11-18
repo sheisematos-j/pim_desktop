@@ -49,6 +49,12 @@ public class jifpesquisar extends javax.swing.JInternalFrame {
         lblcpfoucnpj.setText("Digite o CPF ou CNPJ");
         getContentPane().add(lblcpfoucnpj);
         lblcpfoucnpj.setBounds(20, 120, 220, 40);
+
+        txtcpfoucnpj.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtcpfoucnpjActionPerformed(evt);
+            }
+        });
         getContentPane().add(txtcpfoucnpj);
         txtcpfoucnpj.setBounds(190, 130, 140, 20);
 
@@ -67,11 +73,25 @@ public class jifpesquisar extends javax.swing.JInternalFrame {
         btnconsultarcliente.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
         btnconsultarcliente.setText("Consultar");
         btnconsultarcliente.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnconsultarcliente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnconsultarclienteActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnconsultarcliente);
         btnconsultarcliente.setBounds(160, 300, 100, 30);
 
         setBounds(0, 0, 456, 493);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnconsultarclienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnconsultarclienteActionPerformed
+JFtelaexibicaopesquisacliente obj = new JFtelaexibicaopesquisacliente();
+obj.setVisible(true);
+    }//GEN-LAST:event_btnconsultarclienteActionPerformed
+
+    private void txtcpfoucnpjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcpfoucnpjActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtcpfoucnpjActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

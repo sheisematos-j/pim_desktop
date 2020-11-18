@@ -46,6 +46,11 @@ public class jifpesquisar2 extends javax.swing.JInternalFrame {
         jButton1.setFont(new java.awt.Font("Lucida Bright", 1, 12)); // NOI18N
         jButton1.setText("Consultar");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\sdjma\\Downloads\\marcalogo.png")); // NOI18N
 
@@ -103,6 +108,11 @@ public class jifpesquisar2 extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    JFtelaexibicaofuncionario obj = new JFtelaexibicaofuncionario();
+obj.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
